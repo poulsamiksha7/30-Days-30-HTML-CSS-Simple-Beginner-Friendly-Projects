@@ -1,0 +1,73 @@
+body{
+    font-family: serif;
+    background-color: #fdf6f0;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    color: #5e4b56;
+    margin-top: 20px;
+}
+.planner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 20px;
+    min-width: 1000px;
+}
+.day-card{
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+.day-card:hover{
+    background: linear-gradient(205deg, #e49bb3,#d6469d6f);
+    border: solid #c3f5f4;
+}
+.day-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tasks{
+    font-style: 0.95em;
+    color: #555;
+}
+.mon{
+    border-top: 5px solid #ffadad;
+}
+.tue{
+    border-top: 5px solid #ffd6a5;
+}
+.wed{
+    border-top: 5px solid #fdffb6;
+}
+.thu{
+    border-top: 5px solid #caffbf;
+}
+.fri{
+    border-top: 5px solid #9bf6ff;
+}
+.sat{
+    border-top: 5px solid #a0c4ff;
+}
+.sun{
+    border-top: 5px solid #bdb2ff;
+}
+
+@media (max-width:768px){
+    .planner{
+        grid-template-columns: (2,1fr);
+    }
+}
+@media(max-width:500px){
+    .planner{
+        grid-template-columns: 1fr;
+    }
+}

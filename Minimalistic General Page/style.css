@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #fafafa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    padding: 60px 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #444;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+textarea {
+    width: 100%;
+    min-height: 60vh;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    resize: none;
+    color: #222;
+}
+
+textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}

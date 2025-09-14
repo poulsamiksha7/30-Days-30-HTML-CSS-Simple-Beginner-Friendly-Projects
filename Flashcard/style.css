@@ -1,0 +1,62 @@
+
+    body {
+      background-color: #0d1117; /* dark background */
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px;
+    }
+
+    .card {
+      background: #161b22;
+      border-radius: 15px;
+      width: 250px;
+      height: 160px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+
+    .card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .card:hover .card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .card-front, .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .card-front {
+      background: linear-gradient(135deg, #1f2937, #111827);
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #facc15; /* yellow for Python vibe */
+    }
+
+    .card-back {
+      background: linear-gradient(135deg, #2563eb, #1e3a8a);
+      color: #fff;
+      transform: rotateY(180deg);
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }

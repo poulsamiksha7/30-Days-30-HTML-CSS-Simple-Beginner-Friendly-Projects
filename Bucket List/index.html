@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Bucket List Tracker — Day</title>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <section class="list-card" aria-label="Bucket list">
+      <div class="hero">
+        <div class="badge">✨</div>
+        <div>
+          <h1>Bucket List Tracker</h1>
+          <p>little dreams, big feelings — check them off as you go</p>
+        </div>
+      </div>
+
+      <div class="goals">
+        <label class="goal">
+          <input type="checkbox" aria-label="visit the himalayas">
+          <div class="text">
+            <h3>Visit the Himalayas</h3>
+            <p>See the sunrise from a mountain top and breathe fresh snow air.</p>
+          </div>
+        </label>
+
+        <label class="goal">
+          <input type="checkbox" aria-label="publish a short story">
+          <div class="text">
+            <h3>Read a Book</h3>
+            <p>Read a small collection of poems or stories and share them.</p>
+          </div>
+        </label>
+
+        <label class="goal">
+          <input type="checkbox" aria-label="learn to play piano">
+          <div class="text">
+            <h3>Learn to play the piano</h3>
+            <p>Practice small melodies and learn one song end-to-end.</p>
+          </div>
+        </label>
+
+        <label class="goal">
+          <input type="checkbox" aria-label="plant a tiny garden">
+          <div class="text">
+            <h3>Plant a tiny garden</h3>
+            <p>Grow tulsi, aloe, and a little herb patch on my balcony.</p>
+          </div>
+        </label>
+      </div>
+    </section>
+    <aside class="side-card" aria-label="Progress and add">
+      <div class="progress-wrap">
+        <div class="progress-label">progress</div>
+        <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="28">
+          <div class="progress-fill"></div>
+        </div>
+        <div class="small-note">28% completed </div>
+      </div>
+
+      <div class="add">
+        <div class="progress-label">quick add (mock)</div>
+        <div class="fake-input">✍ Add a Dreamy Goal</div>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .resume-card {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+      max-width: 400px;
+      text-align: center;
+    }
+.resume-card:hover{
+    box-shadow:0 4px 12px 8px #252201;
+  
+}
+    .resume-card h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #00ffc3;
+      text-shadow: 0 0 10px #00ffc3;
+    }
+
+    .resume-card h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      color: #bbb;
+      margin-bottom: 20px;
+    }
+
+    .skills {
+      text-align: left;
+      margin: 20px 0;
+    }
+
+    .skills h3 {
+      font-size: 1.2rem;
+      color: #7effd2;
+      margin-bottom: 10px;
+
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills ul li {
+      margin: 8px 0;
+      padding: 8px;
+      border-left: 3px solid #00ffc3;
+      background: #2a2a2a;
+      border-radius: 5px;
+    }
+
+
+    .socials {
+      margin-top: 20px;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #e0e0e0;
+      margin: 0 10px;
+      font-size: 1.3rem;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #003d2f;
+      text-shadow: 0 0 10px #d400ff;
+    }

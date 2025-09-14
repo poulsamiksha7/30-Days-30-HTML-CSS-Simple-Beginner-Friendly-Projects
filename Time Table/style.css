@@ -1,0 +1,75 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: #0d1117;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .timetable {
+      width: 90%;
+      max-width: 1000px;
+      border-collapse: collapse;
+      background: #161b22;
+      box-shadow: 0 0 20px rgba(0, 255, 200, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+      animation: glow 3s infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px #0ff;
+      }
+      to {
+        box-shadow: 0 0 25px #0ff, 0 0 50px #00f5ff;
+      }
+    }
+
+    .timetable th,
+    .timetable td {
+      padding: 15px;
+      text-align: center;
+      border: 1px solid #30363d;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .timetable th {
+      background: #21262d;
+      color: #0ff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 14px;
+    }
+
+    .timetable td {
+      background: #0d1117;
+      color: #c9d1d9;
+      font-size: 15px;
+    }
+
+    .timetable td:hover {
+      background: #0ff;
+      color: #000;
+      transform: scale(1.05);
+      cursor: pointer;
+      box-shadow: 0 0 15px #0ff;
+    }
+
+    caption {
+      margin-bottom: 15px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #0ff;
+      text-shadow: 0 0 10px #0ff;
+    }

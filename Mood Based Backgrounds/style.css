@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    font-family: sans-serif;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    margin: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+/* Default mood */
+.wrapper {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+#happy:checked~.wrapper {
+    background-color: #fff176;
+    color: #000;
+}
+
+#sad:checked~.wrapper {
+    background-color: #90a4ae;
+    color: #fff;
+}
+
+#angry:checked~.wrapper {
+    background-color: #e53935;
+    color: #fff;
+}
+
+#calm:checked~.wrapper {
+    background-color: #81c784;
+    color: #000;
+}
