@@ -103,4 +103,4 @@ poulsamiksha7
 
 ## Contact
 
-Your Name - [https://github.com/poulsamiksha7/30-Days-30-HTML-CSS-Simple-Beginner-Friendly-Projects](https://github.com/poulsamiksha7/30-Days-30-HTML-CSS-Simple-Beginner-Friendly-Projects) - email@example.com
+Samiksha Dnyanoba Poul - [https://github.com/poulsamiksha7/30-Days-30-HTML-CSS-Simple-Beginner-Friendly-Projects.git](https://github.com/poulsamiksha7/30-Days-30-HTML-CSS-Simple-Beginner-Friendly-Projects) - poulsamiksha07@gmail.com
