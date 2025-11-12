@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Day 30 of 30 — Aurora Habit Garden</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card" role="application" aria-labelledby="title">
+    <header>
+      <div class="logo">AG</div>
+      <div>
+        <h1 id="title">Day 30 of 30 Aurora Habit Garden</h1>
+        <p class="lead">A CSS only habit tracker that feels like a glowing garden. Use the tiles to mark daily wins.</p>
+      </div>
+    </header>
+
+    <div class="controls">
+      <div class="chip">No JavaScript required</div>
+      <div class="chip">Accessible checkboxes</div>
+      <div class="chip">Responsive grid</div>
+    </div>
+
+    <section class="garden" aria-label="Habits garden">
+
+      <article class="habit" data-streak="4">
+        <div class="title">
+          <div class="petal" aria-hidden>🌿</div>
+          <div>
+            <h3>Morning Walk</h3>
+            <p>15 to 30 minutes outside to start the day</p>
+          </div>
+        </div>
+
+        <div class="week" role="list" aria-label="Days of the week">
+
+          <div class="day">
+            <input type="checkbox" id="h1d1" aria-label="Monday checked" />
+            <label for="h1d1" tabindex="0">M</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d2" aria-label="Tuesday checked" />
+            <label for="h1d2" tabindex="0">T</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d3" aria-label="Wednesday checked" />
+            <label for="h1d3" tabindex="0">W</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d4" aria-label="Thursday checked" />
+            <label for="h1d4" tabindex="0">T</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d5" aria-label="Friday checked" />
+            <label for="h1d5" tabindex="0">F</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d6" aria-label="Saturday checked" />
+            <label for="h1d6" tabindex="0">S</label>
+          </div>
+          <div class="day">
+            <input type="checkbox" id="h1d7" aria-label="Sunday checked" />
+            <label for="h1d7" tabindex="0">S</label>
+          </div>
+        </div>
+      </article>
+
+      <article class="habit" data-streak="2">
+        <div class="title">
+          <div class="petal" aria-hidden>📚</div>
+          <div>
+            <h3>Study Session</h3>
+            <p>Focused 90 minute block for learning and practice</p>
+          </div>
+        </div>
+
+        <div class="week" role="list">
+          <div class="day"><input type="checkbox" id="h2d1" /><label for="h2d1" tabindex="0">M</label></div>
+          <div class="day"><input type="checkbox" id="h2d2" /><label for="h2d2" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h2d3" /><label for="h2d3" tabindex="0">W</label></div>
+          <div class="day"><input type="checkbox" id="h2d4" /><label for="h2d4" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h2d5" /><label for="h2d5" tabindex="0">F</label></div>
+          <div class="day"><input type="checkbox" id="h2d6" /><label for="h2d6" tabindex="0">S</label></div>
+          <div class="day"><input type="checkbox" id="h2d7" /><label for="h2d7" tabindex="0">S</label></div>
+        </div>
+      </article>
+
+      <article class="habit" data-streak="1">
+        <div class="title">
+          <div class="petal" aria-hidden>🧘</div>
+          <div>
+            <h3>Meditation</h3>
+            <p>10 minutes of breath work and presence</p>
+          </div>
+        </div>
+
+        <div class="week" role="list">
+          <div class="day"><input type="checkbox" id="h3d1" /><label for="h3d1" tabindex="0">M</label></div>
+          <div class="day"><input type="checkbox" id="h3d2" /><label for="h3d2" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h3d3" /><label for="h3d3" tabindex="0">W</label></div>
+          <div class="day"><input type="checkbox" id="h3d4" /><label for="h3d4" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h3d5" /><label for="h3d5" tabindex="0">F</label></div>
+          <div class="day"><input type="checkbox" id="h3d6" /><label for="h3d6" tabindex="0">S</label></div>
+          <div class="day"><input type="checkbox" id="h3d7" /><label for="h3d7" tabindex="0">S</label></div>
+        </div>
+      </article>
+
+      <article class="habit" data-streak="0">
+        <div class="title">
+          <div class="petal" aria-hidden>💧</div>
+          <div>
+            <h3>Hydration</h3>
+            <p>8 glasses a day or steady sips through the day</p>
+          </div>
+        </div>
+
+        <div class="week" role="list">
+          <div class="day"><input type="checkbox" id="h4d1" /><label for="h4d1" tabindex="0">M</label></div>
+          <div class="day"><input type="checkbox" id="h4d2" /><label for="h4d2" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h4d3" /><label for="h4d3" tabindex="0">W</label></div>
+          <div class="day"><input type="checkbox" id="h4d4" /><label for="h4d4" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h4d5" /><label for="h4d5" tabindex="0">F</label></div>
+          <div class="day"><input type="checkbox" id="h4d6" /><label for="h4d6" tabindex="0">S</label></div>
+          <div class="day"><input type="checkbox" id="h4d7" /><label for="h4d7" tabindex="0">S</label></div>
+        </div>
+      </article>
+      <article class="habit" data-streak="3">
+        <div class="title">
+          <div class="petal" aria-hidden>📝</div>
+          <div>
+            <h3>Journal</h3>
+            <p>Write one short line about the day</p>
+          </div>
+        </div>
+
+        <div class="week" role="list">
+          <div class="day"><input type="checkbox" id="h5d1" /><label for="h5d1" tabindex="0">M</label></div>
+          <div class="day"><input type="checkbox" id="h5d2" /><label for="h5d2" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h5d3" /><label for="h5d3" tabindex="0">W</label></div>
+          <div class="day"><input type="checkbox" id="h5d4" /><label for="h5d4" tabindex="0">T</label></div>
+          <div class="day"><input type="checkbox" id="h5d5" /><label for="h5d5" tabindex="0">F</label></div>
+          <div class="day"><input type="checkbox" id="h5d6" /><label for="h5d6" tabindex="0">S</label></div>
+          <div class="day"><input type="checkbox" id="h5d7" /><label for="h5d7" tabindex="0">S</label></div>
+        </div>
+      </article>
+
+    </section>
+
+
+    <div class="aurora" aria-hidden></div>
+  </main>
+</body>
+</html>
